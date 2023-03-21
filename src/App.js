@@ -17,9 +17,6 @@ function App() {
     });
   };
 
-  let content =
-    usersList.length > 0 ? <UsersList users={usersList} /> : "Add new user.";
-
   return (
     <Fragment>
       <AddUser onAddUser={addUserHandler} />
